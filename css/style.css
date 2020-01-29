@@ -1,0 +1,151 @@
+/* Hello , And Welcome
+        * this is The Same "make layout from preview html+css tutorial Lv1" of Elzero Web School
+                ** Had To Write It Again to check if I Understanded it Well **/
+/* Big Thanks For Osama El Zero The Admin & The Co-Founder Of Elzero Web School */
+
+/* Rulez */
+
+body button {cursor: pointer;}
+.container {width: 1170px; margin: auto;}
+.clear-fix {clear: both;}
+
+/** Starting The Header Section **/
+
+.header .slider {background-image: url("../images/sanshou.jpg"); height: 600px;
+-webkit-background-size: cover; /* css3 */
+-moz-background-size: cover; /* css3 */
+-o-background-size: cover; /* css3 */
+background-size: cover; /* css3 */
+}
+.header .slider .intro {text-align: center; padding-top: 200px;}
+.header .slider .intro h2 {color: yellow; text-transform: uppercase; border-top: 2px solid yellow;
+border-bottom: 2px solid yellow; padding: 10px; width: 300px; margin: auto;}
+.header .slider .intro button {background-color: yellow; border: none; margin: 10px; color: black;
+text-align: center; padding: 5px 20px;}
+.header .navbar {background-color: #252f31; overflow: hidden;}
+.header .navbar h2{margin: 10px 10px; color: yellow; text-transform: uppercase;}
+.header .navbar img {margin: 10px 0 10px 40px;}
+.header .navbar h2 ,
+.header .navbar img {float: left; display: inline;}
+.header .navbar ul {float: right; overflow: hidden; list-style: none; margin-left: 0;}
+.header .navbar ul li {float: left; margin: 0 10px;}
+.header .navbar ul li:hover ,
+.header .navbar .active {color: yellow; cursor: pointer;}
+
+/** Ending The Header Section **/
+
+/* Starting The Home Section Here */
+
+.home {overflow: hidden;}
+.home .feet {float: left; width: 33.3333%; margin: auto;}
+.home .feet h2 {margin-left: 40px; margin-top: 50px;}
+.home .feet p {margin-left: 40px; margin-bottom: 50px; line-height: 1.5;}
+
+/* Ending The Home Section Here */
+
+/* Strating The About Us Section Here */
+
+.about-us {overflow: hidden; background-color: #373736;}
+.about-us > div {float: left;}
+.picc {width: 35%}
+.picc img {width: 100%; height: auto;}
+.info {width: 50%; overflow: hidden; padding: 0 40px 40px 20px;}
+.info > h2 {margin-left: 40px; margin-top: 50px; color: yellow;}
+.info > p {margin-left: 40px; margin-bottom: 30px; line-height: 1.5; color: yellow;}
+.info .containerb {overflow: hidden; margin-left: 40px;}
+.info .containerb .containers {float: left; width: 50%; overflow: hidden;}
+.info .containerb .containers > div {float: left;}
+.info .containerb .containers .i {width: 20%; margin-top: 30px;}
+.info .containerb .containers .i img {width: 100%;}
+.info .containerb .containers .inf {width: 80%; color: yellow}
+
+/* Ending The About Us Section Here */
+
+/* Starting the coaching Section Here */
+
+.coaching {overflow: hidden; margin: 0 0 70px 0;}
+.coaching .feet {width: 47%; float: left; padding-top: 40px; margin-left: 20px;}
+.coaching .feet h2 {margin-left: 20px; margin-top: 20px;}
+.coaching .feet p {margin-left: 20px; margin-bottom: 30px; line-height: 1.5;}
+.coaching .feet button {background-color: white; color: yellow; margin-left: 40px; border: 2px solid yellow;
+padding: 7px 20px;}
+.coaching .feet h3 {margin: 20px;}
+.coaching .feet > div {background-color: #373736; margin-left: 20px;}
+.coaching .feet span {background-color: yellow; text-align: right; color: black; height: 25px; display: block; line-height: 25px; padding-right: 10px;}
+
+/* Ending the coaching Section Here */
+
+/* Starting The Rules Section */
+
+.rules {background-color: #373736; text-align: center; }
+.rules h2 {text-align: center; padding-top: 40px; color: yellow}
+.rules p {line-height: 1.5; color: yellow; margin-bottom: 40px;}
+.rules button {background-color: #373736; color: yellow; text-align: center; border: 2px solid yellow;
+padding: 7px 20px; margin-bottom: 40px;}
+
+/* Ending The Rules Section */
+
+/* starting the Fights Section */
+
+.fights .program {overflow: hidden;}
+.fights .program > div {width: 50%; float: left;}
+.fights .program .level h2 {margin: 40px;}
+.fights p {line-height: 1.5; margin-left: 40px; margin-bottom: 20px;}
+.fights .program .events h3 {margin: 40px;}
+.fights button {background-color: #373736; color: yellow; text-align: center; border: 2px solid yellow;
+padding: 7px 7px; margin:20px 0 40px 40px;}
+
+/* Ending the Fights Section */
+
+/* Starting The Fighters OP section */
+
+.fo {background-color: #373736; text-align: center; padding: 50px; color: yellow; line-height: 1.5}
+.fo ul {padding-left: 0; list-style: none;}
+.fo ul li {width: 10px; height: 10px; display: inline-block; border: 1px solid yellow;}
+.fo .active ,
+.fo ul li:hover {background-color: yellow;}
+
+/* Ending The Fighters OP section */
+
+/* Starting the Media Section Here */
+
+.media {overflow: hidden; text-align: center; padding-top: 40px; padding-bottom: 40px;}
+.media p {line-height: 1.5; margin: 30px 0;}
+.media .imag {float: left; width:33.3333%}
+.media .imag img {width: 95%; border-radius: 20px; box-shadow: 1px 1px 1px 1px}
+.media
+
+/* Ending the Media Section Here */
+
+/* Starting The Contact Us Section Here */
+
+.contact-us {overflow: hidden; padding: 40px 40px 50px; background-color: #373736;}
+
+/* Ending The Contact Us Section Here */
+
+/* Starting the Contact Us Section Here */
+
+.contact-us {overflow: hidden; background-color: #373736; padding: 40px 0 50px 40px; color: yellow;}
+.contact-us .nf ,
+.contact-us .f {float: left; width: 45%; padding-left: 40px;}
+.contact-us .nf p {line-height: 1.5; margin: 10px;}
+.contact-us .nf .line {margin-top: -15px;}
+.contact-us .nf strong {color: white;}
+.contact-us .f label {color: white;}
+.contact-us .f input[type="text"] ,
+.contact-us .f textarea {display: block; margin: 20px 0; width: 90%; background-color: #4b5456; border: none; color: yellow;}
+.contact-us .f textarea {height: 200px;}
+.contact-us .f input[type="submit"] {background-color: #4b5456; padding: 10px 25px; border: none; color: white;}
+
+/* Ending The Contact Us Section here */
+
+/* Starting The Footer Section Here */
+
+.footer {overflow: hidden; background-color: #4b5456}
+.footer .copy ,
+.footer .so {width: 40%}
+.footer .copy {float: left; color: white;}
+.footer .so {float: right; padding-top: 20px;}
+.footer .so img:hover {border-radius: 2px; box-shadow: 1px 1px 1px 1px; margin: 0 20px; cursor: pointer;}
+
+/* Ending The Footer Section Here */
